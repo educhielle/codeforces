@@ -20,7 +20,7 @@ int main()
         sum += v[i];
     }
     int minsum = sum, pos = k-1;
-    // print(v, k, i, sum, pos, minsum);
+    print(v, k, i, sum, pos, minsum);
     for (; i<n; i++)
     {
         int idx = i % k;
@@ -32,7 +32,7 @@ int main()
             minsum = sum;
             pos = i;
         }
-        // print(v, k, i, sum, pos, minsum);
+        print(v, k, i, sum, pos, minsum);
     }
     cout << (pos-k+2) << '\n';
 }
