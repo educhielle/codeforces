@@ -31,5 +31,5 @@ int main()
 
 for i in $(seq 1 $nios); do
     touch "$dir/input$i.txt"
-    touch "$dir/ouput$i.txt"
+    touch "$dir/output$i.txt"
 done
