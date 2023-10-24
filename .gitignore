@@ -1,3 +1,5 @@
 *.exe
 *.tmp
 a.out
+out
+tmp
