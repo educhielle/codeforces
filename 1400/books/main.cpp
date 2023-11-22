@@ -2,9 +2,6 @@
 
 using namespace std;
 
-const int SIZE = 100001;
-int v[SIZE];
-
 inline void fastIO()
 {
     ios::sync_with_stdio(false);
@@ -15,9 +12,10 @@ inline void fastIO()
 int main()
 {
     fastIO();
-    v[0] = 0;
     int n, t;
     cin >> n >> t;
+    int v[n+1];
+    v[0] = 0;
     int max_count = 0;
     for (int i=1, pos = 0, sum = 0, count = 0; i<=n; i++)
     {
